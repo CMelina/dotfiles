@@ -1,22 +1,22 @@
-set nocompatible              " required
-filetype off                  " required
+set nocompatible
+filetype off
 
-" Set the runtime path to include Vundle and initialize
+" sets the runtime path to include Vundle and initialization
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" Let Vundle manage Vundle, required
+" Vundle management
 Plugin 'VundleVim/Vundle.vim'
 
-" Step 4: Badwolf Color Scheme
+" Badwolf theme
 Plugin 'sjl/badwolf'
 
-" Step 5: Fugitive Improvement Plugin
+" plugin
 Plugin 'tpope/vim-fugitive'
 
-call vundle#end()            " required
-filetype plugin indent on    " required
+call vundle#end()
+filetype plugin indent on
 
-" Step 6: Set colorscheme
+" set theme
 syntax enable
 colorscheme badwolf
