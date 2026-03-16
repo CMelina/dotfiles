@@ -7,7 +7,12 @@ BASHRC="$HOME/.bashrc"
 
 echo "Setting up bash customizations..."
 
-# 1.) handle symbolic linking
+# checks if curl is installed for the myip alias
+if ! command -v curl &> /dev/null; then
+    echo "Note: 'curl' is not installed. The 'myip' alias will require it."
+fi
+
+# 1.) handles the symbolic linking
 if [ -L "$TARGET_ALIAS" ]; then
     echo "Symlink already exists. Skipping link creation."
 elif [ -f "$TARGET_ALIAS" ]; then
@@ -24,6 +29,8 @@ fi
 if ! grep -q "if [ -f ~/.bash_aliases ]; then" "$BASHRC"; then
     echo "Adding sourcing logic to ~/.bashrc"
     cat <<EOT >> "$BASHRC"
+
+    
 
 # load the custom aliases
 if [ -f ~/.bash_aliases ]; then
