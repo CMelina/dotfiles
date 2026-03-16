@@ -15,7 +15,7 @@ alias l='ls -CF'
 
 # networking and utility
 alias myip='curl ifconfig.me'
-alias path='echo -e ${PATH//:/\\n}' # Displays PATH one per line
+alias path='echo -e ${PATH//:/\\n}' # one PATH per line
 
 # shortcuts for fugitive plugin
 alias gst='git status'
