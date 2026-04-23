@@ -15,7 +15,7 @@ This repository contains a collection of configuration files and automation scri
 - System-level installs require `sudo` privileges.
 - Ensure `git`, `curl`, and `unzip` are installed for full functionality.
 
-### Installation & Usage
+### Installation and Usage
 1.  Clone the Repository:
     ```bash
     git clone [https://github.com/your-username/dotfiles.git](https://github.com/your-username/dotfiles.git)
@@ -27,7 +27,7 @@ This repository contains a collection of configuration files and automation scri
 
 *For detailed logic and citations for each component, please refer to the README files within each specific subdirectory.*
 
-## Retrospective & Improvements
+## Retrospective and Improvements
 
 ### Improvements Made
 Based on peer reviews and internal testing, the following updates were implemented:
