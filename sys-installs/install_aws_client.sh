@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Checks Effective User ID (root user has an EUID of 0).
 if [ "$EUID" -ne 0 ]; then
     echo "Error: Script requires root privileges. Please run with `sudo`."
