@@ -4,9 +4,9 @@ This repository contains a collection of configuration files and automation scri
 
 ## Repository Contents
 
-- **`vim-config/`**: Contains `.vimrc` configuration using the Vundle plugin manager, the Badwolf theme, and the Fugitive git plugin.
-- **`homefiles/`**: Includes `.bash_aliases` for enhanced navigation and safety, along with a deployment script to link them to the home directory.
-- **`sys-installs/`**: Features a robust, silent installation script for the AWS Command.
+- `vim-config/`: Contains `.vimrc` configuration using the Vundle plugin manager, the Badwolf theme, and the Fugitive git plugin.
+- `homefiles/`: Includes `.bash_aliases` for enhanced navigation and safety, along with a deployment script to link them to the home directory.
+- `sys-installs/`: Features a robust, silent installation script for the AWS Command.
 
 ## Getting Started
 
